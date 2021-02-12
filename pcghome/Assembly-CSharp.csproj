@@ -36,11 +36,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\MeshBuilder.cs" />
      <Compile Include="Assets\Scripts\MeshGenerator.cs" />
      <Compile Include="Assets\Scripts\PlaneGenerator.cs" />
      <Compile Include="Assets\Scripts\CubeGenerator.cs" />
      <Compile Include="Assets\Scripts\PyramidGenerator.cs" />
      <Compile Include="Assets\playercontroller.cs" />
+     <Compile Include="Assets\Scripts\ForestGenerator.cs" />
+     <Compile Include="Assets\Scripts\LandscapeGen.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
